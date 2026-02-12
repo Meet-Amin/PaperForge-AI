@@ -36,26 +36,7 @@ PaperForge-AI follows a Retrieval-Augmented Generation pipeline:
 
 ## 🏗 Architecture Diagram
 
-```
-User Upload
-    │
-    ▼
-Document Loader + Chunking
-    │
-    ▼
-OpenAI Embeddings
-    │
-    ▼
-Chroma Vector Database
-    │
-Top-K Retrieval
-    │
-    ▼
-LLM Paper Generator
-    │
-    ▼
-Final Research Paper
-```
+![Architecture](architecture.svg)
 
 ---
 
