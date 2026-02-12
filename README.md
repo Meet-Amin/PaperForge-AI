@@ -85,8 +85,6 @@ Create a `.env` file in the project root:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-⚠️ Never commit this file to GitHub.
-
 ---
 
 ## ▶️ Run the App
@@ -123,16 +121,7 @@ PaperForge-AI/
 
 ---
 
-## 🔮 Future Improvements
 
-- Citation formatting (APA / IEEE)
-- PDF export
-- Research outline mode
-- Multi-agent writing pipeline
-- Reference manager integration
-- Custom writing styles
-
----
 
 ## 👤 Author
 
