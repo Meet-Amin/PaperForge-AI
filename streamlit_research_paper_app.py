@@ -819,7 +819,6 @@ if question:
 
 st.caption(
     "Tip: For large documents, increase chunk size and Top-K to improve section depth and citation coverage."
-    "© 2026 Meet Amin"
 )
 st.caption(
     
