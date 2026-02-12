@@ -1,0 +1,47 @@
+<svg width="900" height="420" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.box { fill:#1f2937; stroke:#4b5563; stroke-width:2; rx:10; }
+.text { fill:white; font-family:Arial; font-size:14px; text-anchor:middle; }
+.arrow { stroke:#9ca3af; stroke-width:2; marker-end:url(#arrowhead); }
+.title { fill:#111827; font-family:Arial; font-size:20px; font-weight:bold; text-anchor:middle; }
+</style>
+
+<defs>
+<marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" fill="#9ca3af"/>
+</marker>
+</defs>
+
+<text x="450" y="30" class="title">PaperForge-AI Architecture</text>
+
+<rect x="40" y="120" width="160" height="60" class="box"/>
+<text x="120" y="155" class="text">User Upload</text>
+
+<rect x="240" y="120" width="180" height="60" class="box"/>
+<text x="330" y="155" class="text">Document Loader</text>
+
+<rect x="460" y="120" width="180" height="60" class="box"/>
+<text x="550" y="155" class="text">Text Chunking</text>
+
+<rect x="680" y="120" width="180" height="60" class="box"/>
+<text x="770" y="155" class="text">Embeddings</text>
+
+<rect x="240" y="260" width="200" height="60" class="box"/>
+<text x="340" y="295" class="text">Chroma Vector DB</text>
+
+<rect x="500" y="260" width="180" height="60" class="box"/>
+<text x="590" y="295" class="text">LLM Generator</text>
+
+<rect x="720" y="260" width="160" height="60" class="box"/>
+<text x="800" y="295" class="text">Research Paper</text>
+
+<line x1="200" y1="150" x2="240" y2="150" class="arrow"/>
+<line x1="420" y1="150" x2="460" y2="150" class="arrow"/>
+<line x1="640" y1="150" x2="680" y2="150" class="arrow"/>
+
+<line x1="770" y1="180" x2="340" y2="260" class="arrow"/>
+<line x1="440" y1="290" x2="500" y2="290" class="arrow"/>
+<line x1="680" y1="290" x2="720" y2="290" class="arrow"/>
+
+</svg>
