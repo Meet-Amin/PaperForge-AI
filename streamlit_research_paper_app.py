@@ -609,7 +609,6 @@ with st.sidebar:
     chunk_size = st.slider("Chunk size", 50, 2000, 1000, 50)
     chunk_overlap = st.slider("Chunk overlap", 0, 400, 150, 10)
     top_k = st.slider("Top-K retrieval", 2, 12, DEFAULT_K, 1)
-    st.caption(f"Environment file: {ENV_PATH}")
     st.markdown("---")
     st.subheader("Publication Format")
     author_names = st.text_input("Author names", value="Your Name")
