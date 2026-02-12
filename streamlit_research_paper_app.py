@@ -1,19 +1,3 @@
-"""
-streamlit_research_paper_app.py
-
-✅ Upload docs (PDF/DOCX/TXT/MD) → Ingest into Chroma → Generate full research paper
-✅ Uses OPENAI_API_KEY from .env (loaded reliably from the same folder as this script)
-
-Folder should look like:
-R_P/
-  streamlit_research_paper_app.py
-  .env   (contains: OPENAI_API_KEY=sk-xxxx)
-
-Run:
-  pip install -U streamlit python-dotenv langchain langchain-openai langchain-chroma langchain-community unstructured pypdf python-docx reportlab
-  streamlit run streamlit_research_paper_app.py
-"""
-
 import os
 import shutil
 import uuid
@@ -24,11 +8,11 @@ from typing import Callable, List, Optional, Tuple
 import streamlit as st
 from dotenv import load_dotenv
 
-# ✅ Load .env from the SAME directory as this script (works with Streamlit CWD quirks)
+
 ENV_PATH = Path(__file__).resolve().parent / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
-# ✅ Hard fail early if missing key
+
 if not os.getenv("OPENAI_API_KEY"):
     raise RuntimeError(
         "OPENAI_API_KEY not found.\n"
@@ -608,7 +592,7 @@ st.markdown(
     """
 <div class="hero">
   <h1>PaperForge-AI📚</h1>
-  <p>Upload source files, build a citation-aware knowledge base, and generate a structured paper in one run.</p>
+  <p>AI Research Paper Generator</p>
 </div>
 """,
     unsafe_allow_html=True,
@@ -835,4 +819,5 @@ if question:
 
 st.caption(
     "Tip: For large documents, increase chunk size and Top-K to improve section depth and citation coverage."
+    "© 2026 Meet Amin"
 )
