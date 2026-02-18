@@ -6,9 +6,8 @@
 [![LangChain](https://img.shields.io/badge/LangChain-1.2.10-00A67E?style=flat-square&logo=langchain&logoColor=white)](https://langchain.com/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-1.5.0-FF6F00?style=flat-square)](https://www.trychroma.com/)
 [![OpenAI API](https://img.shields.io/badge/OpenAI%20API-2.20.0-00D084?style=flat-square&logo=openai&logoColor=white)](https://openai.com/)
-[![PDFProcessing](https://img.shields.io/badge/PyPDF-6.7.0-0066CC?style=flat-square)](https://pypi.org/project/pypdf/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-Meet--Amin-black?style=flat-square&logo=github)](https://github.com/Meet-Amin/PaperForge-AI)
+
 
 PaperForge-AI is an end-to-end AI research assistant that transforms uploaded documents (PDF, DOCX, TXT, MD) into a structured academic-style research paper using Retrieval-Augmented Generation (RAG). It combines semantic search and LLM reasoning to synthesize knowledge into a coherent research document.
 
